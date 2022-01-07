@@ -17,7 +17,7 @@ class Home extends BaseController
     public function index()
     {
 
-        $todo = $this->todoModel->findAll();
+        $todo = $this->todoModel->orderBy('id', 'desc')->findAll();
         // dd($todo);
 
         $data = [
