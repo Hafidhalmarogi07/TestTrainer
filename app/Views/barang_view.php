@@ -10,8 +10,8 @@
       <form method="post" action="<?= base_url('barang/add');?>">
                 <div class="form-group">
                     <input type="text" id="input_task"name="nama" class="form-control" placeholder="New task" required>
-                    <button type="button" id="add_button" type="submit"><i class="fa fa-plus" aria-hidden="true"></i></button>
-                    <button class="btn btn-success">Tambah Data</button>
+                    <button type="submit" id="add_button" type="submit"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    
                   </div>
         </form>
     <div>
