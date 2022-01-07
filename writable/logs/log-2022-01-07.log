@@ -1,0 +1,244 @@
+CRITICAL - 2022-01-07 02:22:56 --> Undefined index: qty
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Views\barang_view.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\hatta_...', 25, Array)
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(210): include('C:\\Users\\hatta_...')
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('barang_view', Array, true)
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(14): view('barang_view', Array)
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#10 {main}
+CRITICAL - 2022-01-07 02:23:13 --> Undefined index: harga_beli
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Views\barang_view.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\hatta_...', 26, Array)
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(210): include('C:\\Users\\hatta_...')
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('barang_view', Array, true)
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(14): view('barang_view', Array)
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#10 {main}
+CRITICAL - 2022-01-07 02:23:21 --> Invalid file: footer_view.php
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_view.php')
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('footer_view', Array, true)
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(15): view('footer_view', Array)
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#8 {main}
+CRITICAL - 2022-01-07 02:23:38 --> Invalid file: footer_view.php
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_view.php')
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('footer_view', Array, true)
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(15): view('footer_view', Array)
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#8 {main}
+CRITICAL - 2022-01-07 02:27:52 --> Invalid file: footer_view.php
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_view.php')
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('footer_view', Array, true)
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(15): view('footer_view', Array)
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#8 {main}
+CRITICAL - 2022-01-07 02:27:54 --> Invalid file: footer_view.php
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_view.php')
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('footer_view', Array, true)
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(23): view('footer_view', Array)
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->tambah()
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#8 {main}
+CRITICAL - 2022-01-07 02:27:59 --> Invalid file: footer_view.php
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_view.php')
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('footer_view', Array, true)
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(15): view('footer_view', Array)
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#8 {main}
+CRITICAL - 2022-01-07 02:31:50 --> Invalid file: footer_view.php
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_view.php')
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('footer_view', Array, true)
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(15): view('footer_view', Array)
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#8 {main}
+CRITICAL - 2022-01-07 02:31:52 --> Invalid file: footer_view.php
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_view.php')
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('footer_view', Array, true)
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(52): view('footer_view', Array)
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->edit('1')
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#8 {main}
+CRITICAL - 2022-01-07 02:31:57 --> Invalid file: footer_view.php
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_view.php')
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('footer_view', Array, true)
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(15): view('footer_view', Array)
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#8 {main}
+CRITICAL - 2022-01-07 02:33:12 --> Invalid file: footer_view.php
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_view.php')
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('footer_view', Array, true)
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(15): view('footer_view', Array)
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#8 {main}
+CRITICAL - 2022-01-07 02:33:15 --> Invalid file: footer_view.php
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_view.php')
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('footer_view', Array, true)
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(52): view('footer_view', Array)
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->edit('1')
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#8 {main}
+CRITICAL - 2022-01-07 02:33:20 --> Invalid file: footer_view.php
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_view.php')
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('footer_view', Array, true)
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(15): view('footer_view', Array)
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#8 {main}
+CRITICAL - 2022-01-07 02:33:24 --> Invalid file: footer_view.php
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_view.php')
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('footer_view', Array, true)
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(15): view('footer_view', Array)
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#8 {main}
+CRITICAL - 2022-01-07 02:34:10 --> Invalid file: footer_view.php
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_view.php')
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('footer_view', Array, true)
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(15): view('footer_view', Array)
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#8 {main}
+CRITICAL - 2022-01-07 02:34:12 --> Invalid file: footer_view.php
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_view.php')
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('footer_view', Array, true)
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(15): view('footer_view', Array)
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#8 {main}
+CRITICAL - 2022-01-07 02:34:14 --> Invalid file: footer_view.php
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_view.php')
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('footer_view', Array, true)
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(52): view('footer_view', Array)
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->edit('1')
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#8 {main}
+CRITICAL - 2022-01-07 02:37:23 --> Invalid file: footer_view.php
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_view.php')
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('footer_view', Array, true)
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(15): view('footer_view', Array)
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#8 {main}
+CRITICAL - 2022-01-07 02:38:24 --> Invalid file: footer_view.php
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_view.php')
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('footer_view', Array, true)
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(15): view('footer_view', Array)
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#8 {main}
+CRITICAL - 2022-01-07 02:38:27 --> Invalid file: footer_view.php
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_view.php')
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('footer_view', Array, true)
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(15): view('footer_view', Array)
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#8 {main}
+CRITICAL - 2022-01-07 02:39:29 --> Invalid file: footer_view.php
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_view.php')
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('footer_view', Array, true)
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(15): view('footer_view', Array)
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#8 {main}
+CRITICAL - 2022-01-07 02:39:31 --> Invalid file: footer_view.php
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_view.php')
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('footer_view', Array, true)
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(23): view('footer_view', Array)
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->tambah()
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#8 {main}
+CRITICAL - 2022-01-07 02:39:36 --> Invalid file: footer_view.php
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer_view.php')
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('footer_view', Array, true)
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(15): view('footer_view', Array)
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#8 {main}
+CRITICAL - 2022-01-07 03:33:15 --> syntax error, unexpected end of file
+#0 C:\Users\hatta_febriansyah\Desktop\testcrud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Common.php(1089): CodeIgniter\View\View->render('barang_view', Array, true)
+#2 C:\Users\hatta_febriansyah\Desktop\testcrud\app\Controllers\Barang.php(14): view('barang_view', Array)
+#3 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(825): App\Controllers\Barang->index()
+#4 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\Users\hatta_febriansyah\Desktop\testcrud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\hatta_febriansyah\Desktop\testcrud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\hatta_febriansyah\Desktop\testcrud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\hatta_...')
+#8 {main}
