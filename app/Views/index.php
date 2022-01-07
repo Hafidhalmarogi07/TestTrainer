@@ -20,7 +20,7 @@
         <span class="input_title">Todo list</span>
         <button type="button" class="edit_title_button"><i class="fa fa-pencil" aria-hidden="true"></i></button>
       </div>
-      <form id="add_task">
+      <form action="create-note" id="add_task" name="add_task" method="get">
         <input type="text" id="input_task" name="input" placeholder="New task">
         <button type="button" id="add_button"><i class="fa fa-plus" aria-hidden="true"></i></button>
       </form>
@@ -29,8 +29,8 @@
           <?php foreach ($note as $n) : ?>
             <li>
               <span class="input"><?= $n['isi'] ?></span>
-              <button type="button" class="edit_task_button"><i class="fa fa-pencil" aria-hidden="true"></i></button>
-              <button type="button" class="delete"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+              <a href="edit-note/<?= $n['id'] ?>" class="edit_task_button"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+              <a href="delete-note/<?= $n['id'] ?>" class="delete"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
             </li>
           <?php endforeach; ?>
         </ul>

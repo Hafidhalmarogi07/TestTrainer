@@ -13,6 +13,13 @@ p {
   margin: 2px;
 }
 
+a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1em;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
 button {
   font-family: "Open Sans", sans-serif;
   font-size: 1.1em;

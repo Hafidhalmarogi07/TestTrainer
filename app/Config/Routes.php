@@ -32,6 +32,10 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->get('/create-note', 'Home::add');
+$routes->get('/edit-note/(:any)', 'Home::editView/$1');
+$routes->post('/edit-note/save/(:any)', 'Home::save/$1');
+$routes->get('/delete-note/(:any)', 'Home::delete/$1');
 
 /*
  * --------------------------------------------------------------------

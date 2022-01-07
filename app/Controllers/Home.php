@@ -25,7 +25,47 @@ class Home extends BaseController
         return view('index', $data);
     }
 
+    public function editView($input)
+    {
+        $note = $this->dataNote->where(['id' => $input])->first();
+
+        $data = [
+            'title' => 'App List | Halaman Utama',
+            'note' => $note
+        ];
+
+        return view('edit-view', $data);
+    }
+
     public function add()
     {
+        $input = $this->request->getVar('input');
+
+        $note = $this->dataNote->save([
+            'isi' => $input
+        ]);
+
+        return redirect()->to(base_url());
+    }
+
+    public function save($id)
+    {
+        $input = $this->request->getVar('input');
+
+        $note = $this->dataNote->save([
+            'id' => $id,
+            'isi' => $input
+        ]);
+
+        return redirect()->to(base_url());
+    }
+
+    public function delete($id)
+    {
+        $note = $this->dataNote->delete([
+            'id' => $id
+        ]);
+
+        return redirect()->to(base_url());
     }
 }

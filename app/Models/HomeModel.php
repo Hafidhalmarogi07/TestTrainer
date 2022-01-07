@@ -14,7 +14,7 @@ class HomeModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = ['isi'];
 
     // Dates
     protected $useTimestamps = false;
