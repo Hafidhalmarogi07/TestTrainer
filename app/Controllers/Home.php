@@ -15,7 +15,7 @@ class Home extends BaseController
 
     public function index()
     {
-        $note = $this->dataNote->findAll();
+        $note = $this->dataNote->orderBy('id', 'desc')->findAll();
 
         $data = [
             'title' => 'App List | Halaman Utama',
