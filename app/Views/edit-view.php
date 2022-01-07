@@ -22,7 +22,9 @@
             </div>
             <form action="save/<?= $note['id'] ?>" id="add_task" name="add_task" method="post">
                 <input type="text" id="input_task" name="input" placeholder="New task" value="<?= $note['isi'] ?>">
+                <button type="submit" id="add_button"><i class="fa fa-plus" aria-hidden="true"></i></button>
             </form>
+
         </div>
 </body>
 
