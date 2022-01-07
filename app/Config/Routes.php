@@ -33,6 +33,14 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/ShowProduct', 'ProductController::index');
+$routes->get('/TodoApp', 'TodoController::index');
+$routes->add('/createtodo', 'TodoController::createdata');
+$routes->add('/todoapp/update/(:segment)', 'TodoController::updateTodo/$1');
+$routes->add('/todoapp/delete/(:segment)', 'TodoController::deleteTodo/$1');
+
+
+
+
 
 
 /*

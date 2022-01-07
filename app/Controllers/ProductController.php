@@ -15,10 +15,8 @@ class ProductController extends BaseController
 
     public function index()
     {
-
         $data['product'] = $this->products->findAll();
         echo view('Product', $data);
-        //
     }
 
     public function create()
