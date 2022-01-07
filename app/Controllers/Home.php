@@ -30,7 +30,7 @@ class Home extends BaseController
         $note = $this->dataNote->where(['id' => $input])->first();
 
         $data = [
-            'title' => 'App List | Halaman Utama',
+            'title' => 'App List | Edit View',
             'note' => $note
         ];
 

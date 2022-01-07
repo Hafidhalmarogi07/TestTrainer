@@ -125,3 +125,15 @@ CRITICAL - 2022-01-07 02:34:38 --> Too few arguments to function App\Controllers
 #3 C:\Users\dhatu_kertayuga\Documents\ujian-crud\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #4 C:\Users\dhatu_kertayuga\Documents\ujian-crud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\dhatu_...')
 #5 {main}
+CRITICAL - 2022-01-07 02:55:56 --> Undefined variable: title
+#0 C:\Users\dhatu_kertayuga\Documents\ujian-crud\app\Views\edit-view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\dhatu_...', 8, Array)
+#1 C:\Users\dhatu_kertayuga\Documents\ujian-crud\system\View\View.php(210): include('C:\\Users\\dhatu_...')
+#2 C:\Users\dhatu_kertayuga\Documents\ujian-crud\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\dhatu_kertayuga\Documents\ujian-crud\system\Common.php(1089): CodeIgniter\View\View->render('edit-view', Array, true)
+#4 C:\Users\dhatu_kertayuga\Documents\ujian-crud\app\Controllers\Home.php(36): view('edit-view', Array)
+#5 C:\Users\dhatu_kertayuga\Documents\ujian-crud\system\CodeIgniter.php(825): App\Controllers\Home->editView('1')
+#6 C:\Users\dhatu_kertayuga\Documents\ujian-crud\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\dhatu_kertayuga\Documents\ujian-crud\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\dhatu_kertayuga\Documents\ujian-crud\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\dhatu_kertayuga\Documents\ujian-crud\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\dhatu_...')
+#10 {main}
