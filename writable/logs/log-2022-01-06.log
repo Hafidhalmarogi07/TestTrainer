@@ -1,0 +1,43 @@
+ERROR - 2022-01-06 09:17:02 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-01-06 09:17:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\movie\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\movie\system\Database\BaseBuilder.php(1576): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\movie\system\Model.php(723): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\movie\app\Models\MovieModel.php(17): CodeIgniter\Model->__call('getWhere', Array)
+#4 C:\xampp\htdocs\movie\app\Controllers\Movie.php(13): App\Models\MovieModel->getData()
+#5 C:\xampp\htdocs\movie\system\CodeIgniter.php(824): App\Controllers\Movie->index()
+#6 C:\xampp\htdocs\movie\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#7 C:\xampp\htdocs\movie\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\movie\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\movie\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-06 09:27:56 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\movie\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\movie\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\movie\system\Common.php(1097): CodeIgniter\View\View->render('now_showing', Array, true)
+#3 C:\xampp\htdocs\movie\app\Controllers\Movie.php(23): view('now_showing', Array)
+#4 C:\xampp\htdocs\movie\system\CodeIgniter.php(824): App\Controllers\Movie->now_showing()
+#5 C:\xampp\htdocs\movie\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#6 C:\xampp\htdocs\movie\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\movie\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-06 09:44:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+#0 C:\xampp\htdocs\movie\system\CodeIgniter.php(824): App\Controllers\Movie->edit_data('1')
+#1 C:\xampp\htdocs\movie\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#2 C:\xampp\htdocs\movie\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\movie\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\movie\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-06 09:46:53 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\movie\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\movie\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\movie\system\Common.php(1097): CodeIgniter\View\View->render('form_edit', Array, true)
+#3 C:\xampp\htdocs\movie\app\Controllers\Movie.php(43): view('form_edit', Array)
+#4 C:\xampp\htdocs\movie\system\CodeIgniter.php(824): App\Controllers\Movie->edit_data('1')
+#5 C:\xampp\htdocs\movie\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#6 C:\xampp\htdocs\movie\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\movie\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\movie\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
