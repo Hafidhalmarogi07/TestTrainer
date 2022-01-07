@@ -1,11 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HomeComponent } from './home/home.component';
+import { InfografikComponent } from './infografik/infografik.component';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [{
   path: "",
-  component: HomeComponent
+  component: InfografikComponent,
+  children: [
+    {
+      path: "infografik",
+      component: InfografikComponent
+    }]
 }]
 
 @NgModule({
@@ -16,4 +21,4 @@ const routes: Routes = [{
     RouterModule.forChild(routes)
   ]
 })
-export class HomeModule { }
+export class InfografikModule { }
