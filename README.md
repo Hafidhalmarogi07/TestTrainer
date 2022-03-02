@@ -1,6 +1,7 @@
 # Ujian
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+Assalamualaikum. Projek yang saya kerjakan pada bagian tentang bca syariah.
+
 
 ## Development server
 
